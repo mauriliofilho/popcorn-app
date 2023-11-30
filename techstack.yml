@@ -1,0 +1,388 @@
+repo_name: mauriliofilho/popcorn-app
+report_id: 98201c4ca0e125d452e4967dcb4e4712
+repo_type: Public
+timestamp: '2023-11-30T15:49:11+00:00'
+requested_by: isra17
+provider: github
+branch: master
+detected_tools_count: 25
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 3.4.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: github.com/mauriliofilho/popcorn-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Keith M
+  last_updated_on: 2014-03-15 05:05:18.000000000 Z
+- name: Socket.IO
+  description: Realtime application framework (Node.JS server)
+  website_url: http://socket.io/
+  version: 0.9.16
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/1161/vI0ZZlhZ_400x400.png
+  detection_source_url: github.com/mauriliofilho/popcorn-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: jduncanator
+  last_updated_on: 2014-03-16 11:27:12.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source: package.json
+  last_updated_by: Diego Peralta
+  last_updated_on: 2014-02-19 16:28:42.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source: ".travis.yml"
+  last_updated_by: Romain Beaumont
+  last_updated_on: 2014-03-15 10:53:11.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Diego Peralta
+  last_updated_on: 2014-02-19 16:28:42.000000000 Z
+- name: HTML
+  description: Hypertext Markup Language for creating web pages.
+  website_url: http://
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source: index.html
+  last_updated_by: Diego Peralta
+  last_updated_on: 2014-02-19 16:28:42.000000000 Z
+- name: adm-zip
+  description: Javascript implementation of zip for nodejs with support for electron
+    original-fs
+  package_url: https://www.npmjs.com/adm-zip
+  version: 0.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16663/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
+  detection_source_url: github.com/mauriliofilho/popcorn-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Keith M
+  last_updated_on: 2014-03-15 05:05:18.000000000 Z
+  vulnerabilities:
+  - name: Arbitrary File Write in adm-zip
+    cve_id: CVE-2018-1002204
+    cve_url: https://github.com/advisories/GHSA-3v6h-hqm4-2rg6
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.4.11
+- name: cheerio
+  description: Fast, flexible, and lean implementation of core jQuery
+  package_url: https://www.npmjs.com/cheerio
+  version: 0.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15949/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: github.com/mauriliofilho/popcorn-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Keith M
+  last_updated_on: 2014-03-15 05:05:18.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 3.4.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: github.com/mauriliofilho/popcorn-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Keith M
+  last_updated_on: 2014-03-15 05:05:18.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+  - name: No Charset in Content-Type Header in express
+    cve_id: CVE-2014-6393
+    cve_url: https://github.com/advisories/GHSA-gpvr-g6gh-9mc2
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 3.11.0
+- name: grunt
+  description: The JavaScript Task Runner
+  package_url: https://www.npmjs.com/grunt
+  version: 0.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15835/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: github.com/mauriliofilho/popcorn-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Keith M
+  last_updated_on: 2014-03-15 05:05:18.000000000 Z
+  vulnerabilities:
+  - name: Race Condition in Grunt
+    cve_id: CVE-2022-1537
+    cve_url: https://github.com/advisories/GHSA-rm36-94g8-835r
+    detected_date: May 26
+    severity: high
+    first_patched: 1.5.3
+  - name: Arbitrary Code Execution in grunt
+    cve_id: CVE-2020-7729
+    cve_url: https://github.com/advisories/GHSA-m5pj-vjjf-4m3h
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.3.0
+  - name: Path Traversal in Grunt
+    cve_id: CVE-2022-0436
+    cve_url: https://github.com/advisories/GHSA-j383-35pm-c5h4
+    detected_date: Apr 27
+    severity: moderate
+    first_patched: 1.5.2
+- name: grunt-contrib-compass
+  description: Compile Sass to CSS using Compass
+  package_url: https://www.npmjs.com/grunt-contrib-compass
+  version: 0.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17938/default_e0b07170ab7d7ea66954ff35fdeaae5255c4c0aa.png
+  detection_source_url: github.com/mauriliofilho/popcorn-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Keith M
+  last_updated_on: 2014-03-15 05:05:18.000000000 Z
+- name: grunt-contrib-copy
+  description: Copy files and folders
+  package_url: https://www.npmjs.com/grunt-contrib-copy
+  version: 0.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16056/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: github.com/mauriliofilho/popcorn-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Keith M
+  last_updated_on: 2014-03-15 05:05:18.000000000 Z
+- name: grunt-contrib-sass
+  description: Compile Sass to CSS
+  package_url: https://www.npmjs.com/grunt-contrib-sass
+  version: 0.7.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16843/default_768abdabb94806c932ace6262b6bbc8241907245.png
+  detection_source_url: github.com/mauriliofilho/popcorn-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Keith M
+  last_updated_on: 2014-03-15 05:05:18.000000000 Z
+- name: grunt-contrib-watch
+  description: Run predefined tasks whenever watched file patterns are added
+  package_url: https://www.npmjs.com/grunt-contrib-watch
+  version: 0.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15932/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
+  detection_source_url: github.com/mauriliofilho/popcorn-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Keith M
+  last_updated_on: 2014-03-15 05:05:18.000000000 Z
+- name: i18n
+  description: Lightweight translation module with dynamic json storage
+  package_url: https://www.npmjs.com/i18n
+  version: 0.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17931/default_72dbba22ca96f25f78f55f8ea5393222efca5494.png
+  detection_source_url: github.com/mauriliofilho/popcorn-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Keith M
+  last_updated_on: 2014-03-15 05:05:18.000000000 Z
+- name: iconv-lite
+  description: Convert character encodings in pure javascript
+  package_url: https://www.npmjs.com/iconv-lite
+  version: 0.2.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16350/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: github.com/mauriliofilho/popcorn-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Keith M
+  last_updated_on: 2014-03-15 05:05:18.000000000 Z
+- name: ip
+  description: "[![]"
+  package_url: https://www.npmjs.com/ip
+  version: 0.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16483/default_fc6e1fc17e404d936593b5b901d67abb3386daa3.png
+  detection_source_url: github.com/mauriliofilho/popcorn-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Diego Peralta
+  last_updated_on: 2014-02-19 16:28:42.000000000 Z
+- name: node-uuid
+  description: Rigorous implementation of RFC4122
+  package_url: https://www.npmjs.com/node-uuid
+  version: 1.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16142/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: github.com/mauriliofilho/popcorn-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Keith M
+  last_updated_on: 2014-03-15 05:05:18.000000000 Z
+  vulnerabilities:
+  - name: Insecure Entropy Source - Math.random() in node-uuid
+    cve_id: CVE-2015-8851
+    cve_url: https://github.com/advisories/GHSA-265q-28rp-chq5
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.4.4
+- name: numeral
+  description: Format and manipulate numbers
+  package_url: https://www.npmjs.com/numeral
+  version: 1.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16703/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
+  detection_source_url: github.com/mauriliofilho/popcorn-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Keith M
+  last_updated_on: 2014-03-15 05:05:18.000000000 Z
+- name: request
+  description: Simplified HTTP request client
+  package_url: https://www.npmjs.com/request
+  version: 2.34.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: github.com/mauriliofilho/popcorn-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Keith M
+  last_updated_on: 2014-03-15 05:05:18.000000000 Z
+  vulnerabilities:
+  - name: Server-Side Request Forgery in Request
+    cve_id: CVE-2023-28155
+    cve_url: https://github.com/advisories/GHSA-p8p7-x288-28g6
+    detected_date: Mar 17
+    severity: moderate
+    first_patched: 
+  - name: Remote Memory Exposure in request
+    cve_id: CVE-2017-16026
+    cve_url: https://github.com/advisories/GHSA-7xfp-9c55-5vqj
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.68.0
+- name: url
+  description: The core `url` packaged standalone for use with Browserify
+  package_url: https://www.npmjs.com/url
+  version: 0.7.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16462/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: github.com/mauriliofilho/popcorn-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Diego Peralta
+  last_updated_on: 2014-02-19 16:28:42.000000000 Z
