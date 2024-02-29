@@ -3,10 +3,10 @@
 ## Tech Stack
 mauriliofilho/popcorn-app is built on the following main stack:
 
-- [Ruby](https://www.ruby-lang.org) – Languages
-- [Socket.IO](http://socket.io/) – Realtime Backend / API
-- [ExpressJS](http://expressjs.com/) – Microframeworks (Backend)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- [Ruby](https://www.ruby-lang.org) – Languages
+- [ExpressJS](http://expressjs.com/) – Microframeworks (Backend)
+- [Socket.IO](http://socket.io/) – Realtime Backend / API
 - [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
@@ -17,10 +17,10 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 mauriliofilho/popcorn-app is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1161/vI0ZZlhZ_400x400.png' alt='Socket.IO'/> [Socket.IO](http://socket.io/) – Realtime Backend / API
-- <img width='25' height='25' src='https://img.stackshare.io/service/1163/hashtag.png' alt='ExpressJS'/> [ExpressJS](http://expressjs.com/) – Microframeworks (Backend)
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
+- <img width='25' height='25' src='https://img.stackshare.io/service/1163/hashtag.png' alt='ExpressJS'/> [ExpressJS](http://expressjs.com/) – Microframeworks (Backend)
+- <img width='25' height='25' src='https://img.stackshare.io/service/1161/vI0ZZlhZ_400x400.png' alt='Socket.IO'/> [Socket.IO](http://socket.io/) – Realtime Backend / API
 - <img width='25' height='25' src='https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png' alt='Travis CI'/> [Travis CI](http://travis-ci.com/) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
@@ -32,7 +32,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [mauriliofilho/popcorn-app](https://github.com/mauriliofilho/popcorn-app)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|25<br/>Tools used|01/05/24 <br/>Report generated|
+|25<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -158,7 +158,7 @@ Full tech stack [here](/techstack.md)
 |[grunt-contrib-watch](https://www.npmjs.com/grunt-contrib-watch)|v0.6.0|03/15/14|Keith M |MIT|N/A|
 |[i18n](https://www.npmjs.com/i18n)|v0.4.1|03/15/14|Keith M |MIT|N/A|
 |[iconv-lite](https://www.npmjs.com/iconv-lite)|v0.2.11|03/15/14|Keith M |MIT|N/A|
-|[ip](https://www.npmjs.com/ip)|v0.3.0|02/19/14|Diego Peralta |MIT|N/A|
+|[ip](https://www.npmjs.com/ip)|v0.3.0|02/19/14|Diego Peralta |MIT|[CVE-2023-42282](https://github.com/advisories/GHSA-78xj-cgh5-2h22) (Moderate)|
 |[node-uuid](https://www.npmjs.com/node-uuid)|v1.4.1|03/15/14|Keith M |MIT|[CVE-2015-8851](https://github.com/advisories/GHSA-265q-28rp-chq5) (High)|
 |[numeral](https://www.npmjs.com/numeral)|v1.5.3|03/15/14|Keith M |MIT|N/A|
 |[request](https://www.npmjs.com/request)|v2.34.0|03/15/14|Keith M |Apache-2.0|[CVE-2023-28155](https://github.com/advisories/GHSA-p8p7-x288-28g6) (Moderate)<br/>[CVE-2017-16026](https://github.com/advisories/GHSA-7xfp-9c55-5vqj) (Moderate)|
